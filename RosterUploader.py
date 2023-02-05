@@ -152,7 +152,6 @@ def main():
                 num_added += 1
         print("Finished adding shifts.\nShifts added:", num_added, "\nShifts deleted:", num_deleted)
 
-
     except HttpError as error:
         print('An error occurred: %s' % error)
 
