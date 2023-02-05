@@ -61,6 +61,7 @@ def get_credentials():
             main()
         else:
             raise error
+    return creds
 
 
 def insert_dummy(service, now):
